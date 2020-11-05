@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/52202236/Documents/Xamarin workspace/ToDoPOC/ToDoPOC.iOS/ToDoPOC.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/52202236/Documents/Xamarin workspace/ToDoPOC/ToDoPOC.iOS/ToDoPOC.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/52202236/Documents/Xamarin workspace/ToDoPOC/ToDoPOC.iOS/ToDoPOC.iOS.csproj",
+        "projectName": "ToDoPOC.iOS",
+        "projectPath": "/Users/52202236/Documents/Xamarin workspace/ToDoPOC/ToDoPOC.iOS/ToDoPOC.iOS.csproj",
+        "packagesPath": "/Users/52202236/.nuget/packages/",
+        "outputPath": "/Users/52202236/Documents/Xamarin workspace/ToDoPOC/ToDoPOC.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/52202236/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "TinyIoC": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

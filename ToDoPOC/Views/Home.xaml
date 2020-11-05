@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoPOC.Views.Home">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New Note"
+                     Order="Primary"
+                     Priority="0"
+                     Clicked="onNewNoteBtnClick"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    <StackLayout>
+        <ListView x:Name="notesLV" RowHeight="70">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Margin="30,10,30,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding name}" FontSize="Large" FontAttributes="Bold" Grid.Column="0" VerticalTextAlignment="Start"></Label>
+                            <Label Text="{Binding notes}" FontSize="Medium" Grid.Column="0" VerticalTextAlignment="End"></Label>
+                            <Button x:Name="deleteNoteButton" Text="Delete" Grid.Column="1" Clicked="onDeletBtnClick"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{3A8D8ED1-A30B-483C-B134-B25D2757C5F3}|Default">
+  <MonoDevelop.Ide.ItemProperties.ToDoPOC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.50D88B37-5345-4047-9085-37B4DCF75FE4" />
+  <MonoDevelop.Ide.ItemProperties.ToDoPOC FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoPOC/SQLitecode/OfflineDataService.cs">
+    <Files>
+      <File FileName="ToDoPOC/Views/AddNote.xaml.cs" Line="22" Column="31" />
+      <File FileName="ToDoPOC/Views/Home.xaml.cs" Line="82" Column="27" />
+      <File FileName="ToDoPOC/Models/TodoItemModel.cs" />
+      <File FileName="ToDoPOC/Utilities/GlobalConstants.cs" Line="6" Column="44" />
+      <File FileName="ToDoPOC/Views/Home.xaml" Line="1" Column="1" />
+      <File FileName="ToDoPOC/SQLitecode/IOfflineDataService.cs" />
+      <File FileName="ToDoPOC/App.xaml" Line="1" Column="1" />
+      <File FileName="ToDoPOC/SQLitecode/OfflineDataService.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoPOC" expanded="True">
+            <Node name="ToDoPOC" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="SQLitecode" expanded="True">
+                <Node name="OfflineDataService.cs" selected="True" />
+              </Node>
+              <Node name="Utilities" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AddNote.xaml" expanded="True" />
+                <Node name="Home.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ToDoPOC.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ToDoPOC.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

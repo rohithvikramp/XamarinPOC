@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ToDoPOC.AddNote">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Name" />
+            <Editor Placeholder = "Add notes here"/>
+            <Button Text="Done" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
